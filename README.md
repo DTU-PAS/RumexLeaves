@@ -2,10 +2,10 @@
 ## Useful Links:
 * [RumexLeaves Website](https://dtu-pas.github.io/RumexLeaves/)
 * [Publication](ToDo)
-* [Dataset](ToDo)
+* [Dataset](https://data.dtu.dk/articles/dataset/_strong_RumexLeaves_Dataset_introduced_by_Paper_Fine-grained_Leaf_Analysis_for_Efficient_Weeding_Robots_strong_/23659524)
 
 ## Overview:
-RumexLeaves contains in total 809 images with 7747 annotations of Rumex obtusifolius leaves. For each leaf, a pixel-wise leaf blade annotation as well as a polyline annotation of the stem - if visible - and vein were manually created. The stem is visible for ~ 45% of the leaves. We differentiate between two variants of datapoints: (1) iNaturalist datapoints that have been downloaded from the plant publisher iNaturalist and (2) RoboRumex datapoints collected with an agriculture robotics platform. Both variants originate from real-world settings.
+RumexLeaves is a image dataset with fine-grained annotation of Rumex obtusifolius weeds. For each indivudal leaf, we provide a pixel-level segmentation mask as well as a keypoint-guided polyline along stem and major vein of the leaf. The dataset includes 809 images with 7747 annotations, while it is differntiated between two types of datapoints: (1) iNaturalist datapoints have been downloaded from the plant publisher iNaturalist and (2) RoboRumex that have been collected with a Husky Robot platform. Both variants originate from real-world settings. The following table gives an overview of the dataset.
 
 |                | Total | iNaturalist | RoboRumex |
 |----------------|-------|-------------|-----------|
