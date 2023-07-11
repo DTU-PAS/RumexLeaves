@@ -7,11 +7,11 @@
     color: $header-heading-color;
     text-align: center;
     background-color: rgb(217, 238, 220);
-    background-image: url(../../imgs/intro_pic.png);
+    background-image: url(../../imgs/intro_pic.JPG);
     background-repeat: no-repeat;
     height: 500px;
-    width: 100%;
-    // background-size: 100% 50%;
+    width: 200%;
+    background-size: 100% 160%;
     background-position: center;
   
     @include large {
